@@ -53,7 +53,7 @@
 - Performance summary:
     | tool | time(s) | cpu | max mem(MB) | repo size(MB) |target size(GB) |
     |:-----:| :----: | :----: | :----: | :----: | :----: |
-    | kopia | 8591 | 109% | 160 | 395 | 29 |
+    | kopia | 859 | 109% | 160 | 395 | 29 |
     | retic | 913 | 132%| 992 | 5324 | 29 |
     
 - Notes
