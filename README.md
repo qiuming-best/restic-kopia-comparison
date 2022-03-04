@@ -66,7 +66,12 @@
     |:-----:| :----: | :----: | :----: | :----: | :----: |
     | kopia | 1105 | 165% | 221 | 38 | 1024 |
     | retic | 2514 | 368%| 1290 | 136 | 1024 |
-    
+
+- Notes
+    - kopia is 2.27x much more faster than restic
+    - kopia is 2.23x much less cpu than restic
+    - kopia is 5.8x much less memeroy than restic
+    - kopia is 3.57x much smaller repo size than restic
 
 ### Case5. 1 T files with all random content  (11 file, 1004GB, 1 dir)
 
@@ -77,3 +82,6 @@
     | kopia | 9444 | 301% | 357 | 1004 | 1004 |
     | retic | 5560 | 335%| 532 | 1005 | 1004 |
     
+- Notes
+    - kopia use 1.7x more time than restic
+    - kopia use less cpu, mem and time
