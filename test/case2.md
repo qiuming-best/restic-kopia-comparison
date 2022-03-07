@@ -9,7 +9,7 @@
         ```
     - kopia
         ```
-        kopia repository create filesystem --path /mnt/deepdir/data
+        kopia repository create filesystem --path /mnt/dst/kopia-repo
         kopia policy set --global --ignore-cache-dirs false
         Setting policy for (global)
         - setting "ignore cache dirs" to false.
